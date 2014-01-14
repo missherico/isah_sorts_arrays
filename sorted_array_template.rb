@@ -21,10 +21,11 @@ class SortedArray
   end
 
   def [](index)
-    raise NotImplementedError.new("You need to implement the [] method!")
+    @internal_arr[index]
   end
 
   def first_larger_index(target, start_ind=0, end_ind=@internal_arr.size)
+    #binary search
     raise NotImplementedError.new("You need to implement the first_larger_index method!")
   end
 
